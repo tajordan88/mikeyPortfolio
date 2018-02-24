@@ -1,35 +1,4 @@
-body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-	font-size: 24px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 26.4px;
-	height: 100%;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    list-style:none;
-}
-
-a {
-    text-decoration:none;
-}
-
-.center {
-	margin: 0;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
-}
-
+/* GLOBALS */
 .dark {
 	color: #306DA5;
 }
@@ -38,50 +7,33 @@ a {
 	color: #008CB2;
 }
 
-.fal {
-	font-size: 4.214rem;
-}
+/* TITLE PAGE */
+.body-page-1 {
+  margin-top: 10rem;
+} 
 
-
-
-#titleFN {
-	font-weight: normal;
+.first-name {
 	font-size: 4.643rem;
-	display: block;
 }
 
-
-#titleLN{
+.last-name {
 	font-weight: lighter;
-	font-size: 4rem; 
+	font-size: 4rem;
 }
 
-#titleDescription {
+.profession {
 	font-weight: lighter;
 	font-size: 1.14rem;
 }
 
-#portfolio {
-	font-weight: normal;
+.portfolio-link {
 	font-size: 4.214rem;
 }
-#resume {
-	font-weight: lighter;
+
+.resume-link {
 	font-size: 4.643rem;
 }
-#logo {
-	max-width: 71.43%;
-	margin: auto;
-	display:block;
-	margin-left:auto;
-	margin-right:auto; 
-}
 
-#caret {
+.fal {
 	font-size: 4.214rem;
-}
-
- a:hover, .navLink:hover .navLink{
-	color: #42f4cb;
-	text-decoration: none !important;
 }
