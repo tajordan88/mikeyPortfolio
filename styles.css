@@ -1,4 +1,8 @@
 /* GLOBALS */
+html {
+	font-size: 14px;
+}
+
 .dark {
 	color: #306DA5;
 }
@@ -8,29 +12,41 @@
 }
 
 /* TITLE PAGE */
-.body-page-1 {
-  margin-top: 10rem;
+#body-page-1 {
+  	margin-top: 10rem;
 } 
 
 .first-name {
 	font-size: 4.643rem;
+	margin-bottom: -30px;
+    margin-top: 45px;
 }
 
 .last-name {
 	font-weight: lighter;
-	font-size: 4rem;
+	font-size: 3.843rem;
+	margin-bottom: -5px;
 }
 
 .profession {
 	font-weight: lighter;
-	font-size: 1.14rem;
+	font-size: 1.04rem;
+}
+.portfolio-link-container {
+    margin-top: 55px;
+    margin-bottom: -30px;
 }
 
-.portfolio-link {
+#portfolio-link {
 	font-size: 4.214rem;
 }
 
-.resume-link {
+.resume--link-container {
+
+}
+
+#resume-link {
+	font-weight: lighter;
 	font-size: 4.643rem;
 }
 
