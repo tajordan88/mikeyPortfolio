@@ -77,9 +77,13 @@ body {
     margin-right: auto;	
 }
 
+.dropdown-item-custom {
+	cursor: pointer;
+}
+
 .portfolio-link-container {
     margin-top: 55px;
-    margin-bottom: -30px;
+    margin-bottom: -28px;
 }
 
 #portfolio-link {
@@ -92,7 +96,8 @@ body {
 
 #resume-link {
 	font-weight: lighter;
-	font-size: 4.543rem;
+	font-size: 4.212rem;
+    letter-spacing: 0.165rem;
 }
 
 .right-caret {
