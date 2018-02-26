@@ -25,10 +25,6 @@ body {
     margin-bottom: -87px;
 }
 
-/*#logo-img {
-	margin-top: 40px;
-}*/
-
 .link1 {
 	font-size: 30px;
 	padding-top: 37px;
@@ -40,8 +36,9 @@ body {
 	font-weight: lighter;
 }
 
-.dropdown1 {
-	font-size: 30px;
+#dropdown-nav-custom {
+	top: 88%;
+    left: auto;
 }
 
 
