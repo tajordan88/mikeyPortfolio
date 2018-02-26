@@ -3,6 +3,10 @@ html {
 	font-size: 14px;
 }
 
+body {
+    padding-top: 90px;
+}
+
 .dark {
 	color: #306DA5;
 }
@@ -10,6 +14,36 @@ html {
 .light {
 	color: #008CB2;
 }
+
+/* Nav Custom */
+#custom-nav {
+	background-color: #306da5;
+
+}
+
+#logo-link {
+    margin-bottom: -87px;
+}
+
+/*#logo-img {
+	margin-top: 40px;
+}*/
+
+.link1 {
+	font-size: 30px;
+	padding-top: 37px;
+	font-weight: lighter;
+}
+
+.display1 {
+	font-size: 60px;
+	font-weight: lighter;
+}
+
+.dropdown1 {
+	font-size: 30px;
+}
+
 
 /* TITLE PAGE */
 #body-page-1 {
@@ -70,4 +104,11 @@ html {
 
 .fal {
 	font-size: 4.214rem;
+}
+
+
+
+/* Logos Page */
+.enformion-imgfix {
+	padding-top: 60px;
 }

@@ -23,22 +23,24 @@
     ==================================================
     Header Section Start
     ================================================== -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-      <a class="navbar-brand" href="index.html"><img src="">Enter img</a>
+    <nav id="custom-nav" class="navbar navbar-expand-md navbar-dark fixed-top">
+      <a class="navbar-brand" href="index.html" id="logo-link">
+        <img src="Resources/Profile_smaller-01.png" id="logo-img" class="" width="150" height="150" alt="profile picture">
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-          </li>
+        <ul class="navbar-nav mr-auto mx-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link link1" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <span class="nav-link display1" href="#">Link<span class="sr-only">(current)</span></span>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <a class="nav-link dropdown-toggle link1" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="logos.html">Logos</a>
               <a class="dropdown-item" href="displayAds.html">Display Ads</a>
@@ -54,31 +56,18 @@
 
     <!--
     ==================================================
-    Front Page Section Start
+    Logos Section Start
     ================================================== -->
     <div role="main" id="body-page-1" class="container-fluid">
       <div class="row justify-content-center">
-        <div class="col-md-2">
-          <div class="full-info">
-            <p class="first-name dark">Mikey</p>
-            <p class="last-name light">Argueta</p>
-            <p class="profession dark">Graphic and Web Designer</p>
-          </div>
+        <div class="col-md-6">
+          <img src="Resources/Logos/Logo_01.png" alt="Logo_01" class="img-fluid">
         </div>
-        <div class="col-md-3">
-          <div class="text-center">
-            <img src="Resources/Profile_smaller-01.png" class="" width="315" height="315" alt="profile picture">
-          </div>
+        <div class="col-md-6">
+          <img src="Resources/Logos/Logo_02.png" alt="Logo_02" class="img-fluid enformion-imgfix">
         </div>
-        <div class="col-md-2">
-          <div class="front-links">
-            <div class="portfolio-link-container">
-              <a href="" id="portfolio-link" class="dark">Portfolio<span class="oi right-caret" data-glyph="caret-right" title="caret right" aria-hidden="true"></span></a>
-            </div>
-            <div class="resume-link-container">
-              <a href="" id="resume-link" class="light">Resume<span class="oi right-caret" data-glyph="caret-right" title="caret right" aria-hidden="true"></span></a>
-            </div>
-          </div>
+        <div class="col-md-6">
+          <img src="Resources/Logos/Logo_03.png" alt="Logo_03" class="img-fluid">
         </div>
       </div>
     </div>
