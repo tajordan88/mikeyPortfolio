@@ -16,6 +16,12 @@ html {
   	margin-top: 10rem;
 } 
 
+.full-info {
+	width: 10em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .first-name {
 	font-size: 4.643rem;
 	margin-bottom: -30px;
@@ -32,6 +38,13 @@ html {
 	font-weight: lighter;
 	font-size: 1.04rem;
 }
+
+.front-links {
+	width: 20em;
+    margin-left: auto;
+    margin-right: auto;	
+}
+
 .portfolio-link-container {
     margin-top: 55px;
     margin-bottom: -30px;
@@ -47,7 +60,11 @@ html {
 
 #resume-link {
 	font-weight: lighter;
-	font-size: 4.643rem;
+	font-size: 4.543rem;
+}
+
+.right-caret {
+    font-size: 45px;
 }
 
 .fal {
