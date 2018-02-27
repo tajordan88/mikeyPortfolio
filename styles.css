@@ -37,8 +37,9 @@ body {
 }
 
 #dropdown-nav-custom {
-	top: 88%;
-    left: auto;
+    top: 45%;
+    left: auto; 
+    margin-left: 122px;
 }
 
 
@@ -79,6 +80,11 @@ body {
 
 .dropdown-item-custom {
 	cursor: pointer;
+	text-decoration: none;
+}
+
+.dropdown-menu-items-custom:hover {
+	text-decoration: none;
 }
 
 .portfolio-link-container {
