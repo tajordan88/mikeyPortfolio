@@ -79,6 +79,7 @@ body {
 	width: 20em;
     margin-left: auto;
     margin-right: auto;	
+    text-align: center;
 }
 
 .dropdown-item-custom {
@@ -91,18 +92,40 @@ body {
 }
 
 .portfolio-link-container {
-    margin-top: 55px;
-    margin-bottom: -28px;
+    margin-top: 70px;
+    margin-bottom: -21px;
 }
 
 #portfolio-link {
-	font-size: 4.214rem;
+	font-size: 2.87rem;
 }
 
 #resume-link {
 	font-weight: lighter;
-	font-size: 4.212rem;
+	font-size: 2.82rem;
     letter-spacing: 0.18rem;
+}
+
+.dropright .dropdown-toggle::after {
+    margin-left: -0.045em;
+}
+
+@media (max-width: 992px) {
+	.full-info {
+		text-align: center;
+		width: unset;
+	}
+	.profession {
+		text-align: center;
+		width: unset;
+	}
+	.front-links {
+		text-align: center;
+	    padding-left: 12px;
+	}
+	.portfolio-link-container {
+	    margin-top: 20px;
+	}
 }
 
 
