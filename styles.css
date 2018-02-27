@@ -126,6 +126,10 @@ body {
 
 
 /* Display Ads */
+.section-spacing {
+	margin-bottom: 40px;
+}
+
 .ad-space-1 {
 	margin-bottom: 20px;
 	display: block;
