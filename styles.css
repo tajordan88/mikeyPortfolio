@@ -16,9 +16,12 @@ body {
 }
 
 /* Nav Custom */
+.navbar-nav {
+	text-align: center;
+}
+
 #custom-nav {
 	background-color: #306da5;
-
 }
 
 #logo-link {
@@ -103,7 +106,7 @@ body {
 #resume-link {
 	font-weight: lighter;
 	font-size: 4.212rem;
-    letter-spacing: 0.165rem;
+    letter-spacing: 0.18rem;
 }
 
 .right-caret {
