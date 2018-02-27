@@ -72,9 +72,6 @@
         </div>
         <div class="col-md-2">
           <div class="front-links">
-            <!-- <div class="portfolio-link-container">
-              <a href="" id="portfolio-link" class="dark">Portfolio<span class="oi right-caret" data-glyph="caret-right" title="caret right" aria-hidden="true"></span></a>
-            </div> -->
 
             <div class="btn-group dropright portfolio-link-container">
               <button type="button" id="portfolio-link" class="btn dropdown-toggle dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -91,19 +88,32 @@
             </div>
 
             <div class="btn-group dropright">
-              <button type="button" id="resume-link" class="btn dropdown-toggle light" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <button type="button" id="resume-link" class="btn dropdown-toggle light" data-toggle="modal" data-target="#resumeModal">
                 Resume
               </button>
-              <div class="dropdown-menu">
-                <button class="dropdown-item dropdown-item-custom" type="button">Resume</button>
-              </div>
             </div>
 
+          </div>
+        </div>
+      </div>
+    </div>
 
-<!--             <div class="resume-link-container">
-              <a href="" id="resume-link" class="light">Resume<span class="oi right-caret" data-glyph="caret-right" title="caret right" aria-hidden="true"></span></a>
-            </div> -->
 
+    <!-- Resume Modal -->
+    <div class="modal fade" id="resumeModal" tabindex="-1" role="dialog" aria-labelledby="resumeModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="resumeModalLabel">Mikey's Resume</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="" alt="Mikey Resume">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
