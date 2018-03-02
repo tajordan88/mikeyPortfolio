@@ -106,7 +106,11 @@ body {
     letter-spacing: 0.18rem;
 }
 
-.dropright .dropdown-toggle::after {
+#portfolio-link::after {
+    margin-left: -0.045em;
+}
+
+#resume-link::after {
     margin-left: -0.045em;
 }
 
