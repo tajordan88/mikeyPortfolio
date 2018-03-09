@@ -49,6 +49,7 @@ body {
 @media (max-width: 767px) {
 	#dropdown01 {
 		margin-left: 17px;
+		padding-top: 20px;
 	}
 	#dropdown-nav-custom {
 	    margin-left: 0px;
