@@ -6,3 +6,9 @@
 		margin-top: 0rem;
 	}
 }
+
+@media (max-width: 767px) {
+	.dropdown-item {
+		color: #000;
+	}
+}
