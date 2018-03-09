@@ -45,7 +45,11 @@ body {
     margin-left: 122px;
 }
 
+
 @media (max-width: 767px) {
+	#dropdown01 {
+		margin-left: 17px;
+	}
 	#dropdown-nav-custom {
 	    margin-left: 0px;
 		text-align: center;
