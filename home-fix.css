@@ -8,7 +8,22 @@
 }
 
 @media (max-width: 767px) {
-	.dropdown-item {
-		color: #000;
+	.portfolio-link-container {
+		display: none;
+	}
+	#logo-img {
+		display: none;
+	}
+	.link1 {
+		padding-top: 0px;
+	}
+	#dropdown01 {
+		margin-left: 25px;
+	}
+}
+
+@media (min-width: 768px) {
+	#custom-nav {
+		display: none;
 	}
 }
