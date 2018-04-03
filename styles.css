@@ -120,12 +120,14 @@ body {
 
 #portfolio-link {
 	font-size: 2.87rem;
+	background-color: white;
 }
 
 #resume-link {
 	font-weight: lighter;
 	font-size: 2.82rem;
     letter-spacing: 0.18rem;
+	background-color: white;
 }
 
 #portfolio-link::after {
