@@ -155,6 +155,26 @@ body {
 }
 
 
+/* Resume Modal */
+@media (max-width: 767px) {
+  .modal-dialog {
+    max-width: 100%;
+  }
+  .modal-body {
+    height: 45em;
+  }
+}
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    max-width: 80%;
+  }
+  .modal-body {
+    height: 85em;
+  }
+}
+
+
 /* Logos Page */
 .enformion-imgfix {
 	padding-top: 60px;
